@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": { "registry": "https://registry.npmjs.org/" },
   "dependencies": {
     "chalk": "^1.0.0",
     "js-yaml": "^3.13.1",
