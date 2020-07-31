@@ -1,0 +1,3 @@
+---
+heading: "<%= name %> component",
+body: "This is mock data from the <%= dashed %>.yml file"
