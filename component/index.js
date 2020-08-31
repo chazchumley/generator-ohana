@@ -169,7 +169,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('_component/_component.yml'),
       // eslint-disable-next-line max-len
-      this.destinationPath('src/patterns/components/' + this.componentName.dashed + '/' + this.componentName.dashed + '.yml'),
+      this.destinationPath('src/patterns/04-components/' + this.componentName.dashed + '/' + this.componentName.dashed + '.yml'),
       {
         name: this.componentName.raw,
         dashed: this.componentName.dashed
@@ -179,7 +179,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('_component/_component.scss'),
       // eslint-disable-next-line max-len
-      this.destinationPath('src/patterns/components/' + this.componentName.dashed + '/' + this.componentName.dashed + '.scss'),
+      this.destinationPath('src/patterns/04-components/' + this.componentName.dashed + '/' + this.componentName.dashed + '.scss'),
       {
         name: this.componentName.raw,
         dashed: this.componentName.dashed
@@ -189,7 +189,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('_component/_component.twig'),
       // eslint-disable-next-line max-len
-      this.destinationPath('src/patterns/components/' + this.componentName.dashed + '/' + this.componentName.dashed + '.twig'),
+      this.destinationPath('src/patterns/04-components/' + this.componentName.dashed + '/' + this.componentName.dashed + '.twig'),
       {
         dashed: this.componentName.dashed,
         themeNameMachine: this.themeNameMachine
@@ -200,7 +200,7 @@ module.exports = class extends Generator {
       this.fs.copyTpl(
         this.templatePath('_component/_component.ejs'),
         // eslint-disable-next-line max-len
-        this.destinationPath('src/patterns/components/' + this.componentName.dashed + '/' + this.componentName.dashed + '.js'),
+        this.destinationPath('src/patterns/04-components/' + this.componentName.dashed + '/' + this.componentName.dashed + '.js'),
         {
           camel: _.camelCase(this.componentName.raw),
           dashed: this.componentName.dashed,
